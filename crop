@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mv $1 /tmp/$1
+convert /tmp/$1 -gravity center -crop 700x900+0+0 $1
